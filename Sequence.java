@@ -1,4 +1,5 @@
 import java.util.HashMap;
+
 public class Sequence {
     private String id;
     private String nucleotideSeq;
