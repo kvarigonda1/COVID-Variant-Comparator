@@ -2,8 +2,8 @@ import java.util.*;
 import java.io.*;
 public class FastaParser {
 
-    public static List<Sequence> parse(String filePath) throws IOException {
-        List<Sequence> sequences = new ArrayList<>();
+    public static ArrayList<Sequence> parse(String filePath) throws IOException {
+        ArrayList<Sequence> sequences = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(filePath));
 
         String line;
